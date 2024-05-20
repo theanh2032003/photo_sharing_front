@@ -1,0 +1,34 @@
+.user-info-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .user-info-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .user-info-container p {
+    margin: 5px 0;
+  }
+  
+  .user-info-container p:first-child {
+    font-weight: bold;
+  }
+  
+  /* Additional styling for specific fields */
+  .user-info-container p.description {
+    font-style: italic;
+  }
+  
+  .user-info-container p.occupation {
+    text-transform: uppercase;
+  }
+  
+  p {
+    white-space: normal;
+  }
+  

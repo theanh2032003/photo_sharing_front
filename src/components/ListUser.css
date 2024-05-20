@@ -1,0 +1,46 @@
+/* CSS for button links */
+
+.list_user_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user{
+    border: 1px solid rgb(207, 206, 206);
+    height: 50px;
+    width: 500px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+.button-link {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .button-link:hover {
+    background-color: #45a049;
+  }
+  
+  .button-link:active {
+    background-color: #3e8e41;
+  }
+  
